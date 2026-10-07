@@ -1,0 +1,33 @@
+# Simulation build/output
+sim/build/
+sim/logs/
+sim/work/
+obj_dir/
+*.log
+*.vcd
+*.fst
+*.wlf
+*.ucdb
+*.vdb
+coverage.dat
+*.coverage.dat
+transcript
+csrc/
+simv*
+ucli.key
+xcelium.d/
+xrun.*
+INCA_libs/
+*.key
+*.history
+
+# Fetched third-party code (UVM for Verilator, see `make uvm-verilator`)
+third_party/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+__pycache__/
